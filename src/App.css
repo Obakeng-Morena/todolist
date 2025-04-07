@@ -1,0 +1,57 @@
+.todo-container {
+  width: 400px;
+  margin: 50px auto; /* Center horizontally */
+  font-family: sans-serif;
+  text-align: center; /* Center text within the container */
+}
+
+.input-container {
+  display: flex;
+  margin: 20px auto; /* Center horizontally */
+  width: 90%; /* Adjust as needed */
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 90%; /* Adjust as needed */
+  margin: 20px auto; /* Center horizontally */
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
